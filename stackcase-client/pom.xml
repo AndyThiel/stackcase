@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.stackcase</groupId>
+    <artifactId>stackcase-client</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+
+    <name>StackCASE - Client</name>
+    <description>Client of the StackCASE cloud.</description>
+    <packaging>jar</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+
+        <version.wildfly.maven.plugin>1.2.0.Final</version.wildfly.maven.plugin>
+
+        <version.compiler.plugin>3.1</version.compiler.plugin>
+        <version.surefire.plugin>2.16</version.surefire.plugin>
+        <version.war.plugin>2.5</version.war.plugin>
+
+        <version.jboss.bom>8.2.1.Final</version.jboss.bom>
+
+        <version.org.eclipse.m2e>1.0.0</version.org.eclipse.m2e>
+        <version.ro.isdc.wro4j>1.4.4</version.ro.isdc.wro4j>
+    </properties>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/dist</directory>
+                <includes>
+                    <include>**/build.js**</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+</project>

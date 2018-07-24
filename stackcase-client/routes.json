@@ -1,0 +1,3 @@
+{
+  "/stackcase-server/rest/*": "/$1"
+}

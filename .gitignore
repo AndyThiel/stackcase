@@ -1,0 +1,9 @@
+*.iml
+/stackcase-client/node_modules
+/.idea
+/stackcase-server/src/main/webapp/dist/build.js
+/stackcase-server/src/main/webapp/dist/build.js.map
+/stackcase-client/dist/build.js
+/stackcase-client/dist/build.js.map
+/stackcase-server/target
+/stackcase-client/target

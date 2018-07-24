@@ -1,0 +1,38 @@
+{
+  "channel": [
+    {
+      "id": 1,
+	  "dateCreated": "2018-07-18T22:00:00.511Z",
+      "name": "examplechannel",
+      "label": "Example Channel",
+      "description": "A channel to greet the new dude."
+    }
+  ],
+  "playlist": [
+    {
+      "id": 1,
+	  "dateCreated": "2018-07-18T22:00:00.511Z",
+      "name": "exampleplaylist",
+      "label": "Example Playlist",
+      "description": "A playlist for the new dude."
+    }
+  ],
+  "article": [
+    {
+      "id": 1,
+	  "dateCreated": "2018-07-18T22:00:00.511Z",
+      "name": "examplearticle",
+      "label": "Example Article",
+      "description": "An article for the new dude."
+    }
+  ],
+  "playlistarticle": [
+    {
+      "id": 1,
+	  "dateCreated": "2018-07-18T22:00:00.511Z",
+      "name": "exampleplaylistarticle",
+      "label": "Example Playlist Article",
+      "description": "An article in the new dude's playlist."
+    }
+  ],
+}

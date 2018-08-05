@@ -2,7 +2,7 @@
   <header class="stackcase-header">
     <div class="content">
       <router-link class="link" :to="{ name: 'home' }"><h1 v-html="stackCaseTitle"></h1></router-link>
-      <h2 class="subtitle">Texts are meant to be played</h2>
+      <h2 class="subtitle">Wysiwyg Editor for the Technology Stack of Your Choice</h2>
     </div>
     <!--div class="header-quick-navigation">
       <QuickNavigation />

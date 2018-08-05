@@ -11,11 +11,14 @@
 
     <section v-if="panelVisible" class="quick-navigation-panel">
       <article class="quick-navigation-item">
-        <router-link class="link" :to="{ name: 'home' }">Home</router-link>
+        <router-link class="link" :to="{ name: 'home' }" exact>Home</router-link>
       </article>
-      <!--article class="quick-navigation-item">
-        <router-link class="link" :to="{ name: 'factsheets' }">Factsheets</router-link>
-      </article-->
+      <article class="quick-navigation-item">
+        <router-link class="link" :to="{ name: 'projects' }">Projects</router-link>
+      </article>
+      <article class="quick-navigation-item">
+        <router-link class="link" :to="{ name: 'stacks' }">Stacks</router-link>
+      </article>
     </section>
 
   </div>

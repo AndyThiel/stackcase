@@ -1,38 +1,34 @@
 {
-  "channel": [
+  "projects": [
     {
       "id": 1,
 	  "dateCreated": "2018-07-18T22:00:00.511Z",
-      "name": "examplechannel",
-      "label": "Example Channel",
-      "description": "A channel to greet the new dude."
+      "name": "exampleproject",
+      "label": "Project #1",
+      "description": "A project."
+    },
+    {
+      "id": 2,
+      "dateCreated": "2018-07-18T22:00:00.511Z",
+      "name": "exampleproject2",
+      "label": "Project #2",
+      "description": "Another project."
     }
   ],
-  "playlist": [
+  "stacks": [
     {
       "id": 1,
 	  "dateCreated": "2018-07-18T22:00:00.511Z",
-      "name": "exampleplaylist",
-      "label": "Example Playlist",
-      "description": "A playlist for the new dude."
-    }
-  ],
-  "article": [
+      "name": "examplestack",
+      "label": "Stack #1",
+      "description": "A tech stack."
+    },
     {
-      "id": 1,
-	  "dateCreated": "2018-07-18T22:00:00.511Z",
-      "name": "examplearticle",
-      "label": "Example Article",
-      "description": "An article for the new dude."
+      "id": 2,
+      "dateCreated": "2018-07-18T22:00:00.511Z",
+      "name": "examplestack2",
+      "label": "Stack #2",
+      "description": "Another tech stack."
     }
-  ],
-  "playlistarticle": [
-    {
-      "id": 1,
-	  "dateCreated": "2018-07-18T22:00:00.511Z",
-      "name": "exampleplaylistarticle",
-      "label": "Example Playlist Article",
-      "description": "An article in the new dude's playlist."
-    }
-  ],
+  ]
 }

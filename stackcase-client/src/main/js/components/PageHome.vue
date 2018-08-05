@@ -1,5 +1,6 @@
 <template>
   <section class="content-page">
+    <p>Home content</p>
   </section>
 </template>
 
@@ -10,7 +11,6 @@ export default {
 
 <style lang="stylus" scoped>
 @import "../styles/vars"
-
 .content-page
   display flex
   flex-direction row

@@ -28,9 +28,15 @@ export default {
       },
       {
         id: 2,
-        name: 'test',
-        label: 'Test',
-        route: 'test',
+        name: 'projects',
+        label: 'Projects',
+        route: 'projects',
+      },
+      {
+        id: 3,
+        name: 'stacks',
+        label: 'Stacks',
+        route: 'stacks',
       },
     ]
   },
